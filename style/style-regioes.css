@@ -1,0 +1,13 @@
+@import url(./style.css);
+details {
+  background-color: rgb(109, 93, 93);
+  padding: 15px;
+  border-radius: 2px;
+}
+summary {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: black;
+}

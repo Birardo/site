@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>atividade João Ricardo</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Página sobre pokémon</h1>
+      <p class="subtitulo">pokedéx</p>
+      <div class="principal">
+        <img
+          src="./img/pokebola.png"
+          alt="foto de uma pokebola"
+          class="pokebola"
+        />
+        <nav class="links">
+          <a href="./iniciais.html">Iniciais</a>
+          <a href="./regioes.html">Regiões</a>
+          <a href="./index.html">Home</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <h2 class="subititulo">Nos dê seu feedback</h2>
+      <form>
+        <fieldset>
+          <legend>informações de contato</legend>
+          <label for="name"
+            >Nome:
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Digite seu nome..."
+              required
+            /><br />
+          </label>
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="exemplo@gmail.com.br"
+            required
+          /><br />
+          <label for="cometario">Comentários:</label>
+          <textarea
+            name="comentario"
+            id="comentario"
+            placeholder="digite o seu comentario aqui..."
+            cols="70"
+            rows="8"
+          ></textarea
+          ><br />
+          <button type="submit">Concluído</button>
+        </fieldset>
+      </form>
+      <button onclick="alert('Quiz enviado')">Enviar quiz</button>
+    </main>
+    <footer class="rodape">
+      <p class="copyright">&copy Todos os direitos reservados.</p>
+      <p class="copyright">
+        Para conhecer mais sobre mim
+        <a
+          class="copyright-link"
+          href="https://birardo.github.io/portifolio/"
+          class="link"
+          target="blank"
+          >clique aqui</a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>
