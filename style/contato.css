@@ -1,0 +1,45 @@
+@import url(./style.css);
+main {
+  width: 50%;
+  margin: auto;
+}
+fieldset {
+  height: 400px;
+  padding: 15px;
+  border-radius: 6px;
+  border: 2px solid rgb(85, 42, 165);
+}
+legend {
+  color: (85, 42, 165);
+  padding: 0 15px;
+}
+textarea {
+  background-color: rgb(221, 245, 228) transparent;
+  border-radius: 6px;
+  border: 2px solid (85, 42, 165);
+  outline: none;
+}
+textarea::placeholder {
+  color: (0, 0, 0);
+  padding: 5 0 0 5px;
+}
+input::placeholder {
+  color: white;
+}
+button {
+  padding: 10px;
+  background-color: rgb(22, 23, 83) transparent;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover {
+  transition: 350ms ease;
+  font-weight: 600;
+  border-radius: 6px solid;
+}
+fieldset label {
+  margin-top: 0 20px;
+  display: block;
+}
